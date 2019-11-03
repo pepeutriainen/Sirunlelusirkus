@@ -1,0 +1,213 @@
+$enable-rounded:            true !default;
+$enable-shadows:            true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: #ff0000,
+  secondary: #4f70ce,
+  light: #f3f3f3,
+  dark: #151515,
+  info: #ccc,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: #333;
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #12bbad;
+
+// Fonts
+$font-weight-normal: 200;
+$headings-font-weight: 200;
+$lead-font-size:   1.30rem;
+
+$spacer: 1.5rem;
+$headings-font-family: Comic Sans MS, cursive, sans-serif;
+
+
+@import 'bootstrap-4.3.1';
+
+nav ul{
+  list-style: none;
+  margin: 0 2px;
+  padding: 0;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  color: white;
+}
+
+nav li {
+   display: inline-block;
+   padding: 10px 10px;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  color: white;
+}
+
+.btn3d.btn-default {
+  background-color: #ff0000 !important;
+  color:white;
+  font-family: Comic Sans MS;
+}
+h5 {
+ font-family: Comic Sans MS; 
+}
+
+.alapalkki {
+ background-color: red; 
+  color: white;
+}
+
+.btn3d {
+	position: relative;
+	top: -6px;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+  font-family: Comic Sans MS;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+
+.btn3d.btn-white {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f5f5f5, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #fff;
+}
+
+.btn3d.btn-white:active,
+.btn3d.btn-white.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #fff;
+}
+
+.btn3d.yhteydenotto {
+	color: #ffffff;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #2dbd45, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #2dbd45;
+  font-size: 15px
+}
+
+.btn3d.yhteydenotto:active,
+.btn3d.yhteydenotto.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #a3a899;
+}
+
+.btn3d.ika {
+	color: #ffffff;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f77c00, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f77c00;
+}
+
+.btn3d.ika:active,
+.btn3d.ika.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #a3a899;
+}
+
+.btn3d.pojille {
+	color: #ffffff;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #00b7ff, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #00b7ff;
+}
+
+.btn3d.pojille:active,
+.btn3d.pojille.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #a3a899;
+}
+
+.btn3d.tytoille {
+	color: #ffffff;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #f700ff, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f700ff;
+}
+
+.btn3d.tytoille:active,
+.btn3d.tytoille.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #a3a899;
+}
+
+.btn3d.kaikille {
+	color: #ffffff;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #ffd500, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #ffd500;
+}
+
+.btn3d.kaikille:active,
+.btn3d.kaikille.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #a3a899;
+}
+
+
+
+/*Valikkoboksin teksti*/
+.modal-title {
+  color: white;
+}
+
+#footernimi,
+#sivustokartta,
+#otayhteytta,
+#sivustokarttacolum, {
+ font-family: Comic Sans MS; 
+}
+
+.btn3d.valitsevaihtoehto {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 2px rgba(255, 255, 255, 0.10) inset, 0 8px 0 0 #BEBEBE, 0 8px 8px 1px rgba(0, 0, 0, .2);
+	background-color: #f9f9f9;
+  font-size:15;
+}
+
+.btn3d.valitsevaihtoehto:active,
+.btn3d.valitsevaihtoehto.active {
+	color: #666666;
+	box-shadow: 0 0 0 1px #ebebeb inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, .1);
+	background-color: #f9f9f9;
+}
+
+/* otsikko ja ala otsikkojen värit */
+#toinenOtsikko,#leluniovat1,#leluniovat2,#leluniovat3,#leluniovat4 {
+  color: #ff0000;
+}
+
+
+
+
+
+
+
